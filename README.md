@@ -48,15 +48,14 @@ Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozu
 * Nie mam pojęcia, o co chodzi z ekranem „Tworzenie raportu XYZ dla meczu”, który pojawia się po kliknięciu "Dodaj raport" przy meczu - tym, w którym pojawia się ID gracza i ID meczu. Nic nie można edytować, przycisk „Clear” nic nie robi
 * Tak jak już wcześniej wspomniałam, funkcjonalność "Rozpocznij mecz" jest dla mnie kompletnie nieintuicyjna i nie połapałam się do końca, o co w niej chodzi :O
 * Dostęp do meczy i raportów jest dla mnie trochę dziwny. Nie podoba mi się, że na stronie głównej widoczna jest tylko zakładka z graczami, a po kliknięciu w konkretnego gracza zakładki z meczami i raportami pojawiają się w tym samym miejscu i w takim samym stylu - czuję, że powinno być jakoś zasygnalizowane, że są to jakby podzakładki, przypisane do strony konkretnego gracza
+* Na stronie edycji profilu zawodnika linki do youtube dodaje się tak samo jak języki, ale nie ma to za bardzo sensu. Albo wszystkie tego typu rzeczy powinno się dodawać na tej zasadzie, albo żadne
 
 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)
-* wybór kolumn listy, filtry i przyciski „submit” i „clear” są po angielsku, a reszta strony po polsku
-* błąd językowy – powinno być „liczba” zamiast „ilość”
-* jak jest długa nazwa, to strona się rozszerza
-* po kliknięciu w „Waga” rozwija nam się lista jakichś bezsensownych liczb
-* mogę wpisywać nieprawodłowy adres email i nic się nie dzieje. Ale potem  nie mogę zapisać zmian. Powinien wyświetlać się jakiś komunikat typu „nieprawidłowy adres email”
-* w polu telefon mogę wpisywać litery i wszystko się zapisuje
-* Linki do youtube dodaje się tak samo jak języki, ale nie ma to za bardzo sensu. Albo wszystkie tego typu rzeczy powinno się dodawać na tej zasadzie, albo żadne. 
+* Wybór kolumn listy, filtry i przyciski „submit” i „clear” są po angielsku, a reszta strony po polsku
+* Na ogół ma ograniczenia dla liczby znaków - jeśli np. wprowadzę bardzo długie imię zawodnika, to strona się rozszerza
+* Po kliknięciu w pole „Waga” w ekranie tworzenia/edycji profilu zawodnika rozwija nam się lista jakichś bezsensownych liczb
+* Jeśli wpiszę nieprawidłowy adres email w polu tworzenia/edycji zawodnika, nie mogę zapisać zmian, ale nie dostaję żadnej informacji, dlaczego. Powinien wyświetlać się jakiś komunikat typu „nieprawidłowy adres email” i pole powinno się podświetlić na czerwono
+* W polu telefon mogę wpisywać litery i jakiekolwiek inne znaki - wszystko się zapisuje bez problemu 
 * Kiedy klikam clear przy robieniu profilu gracza, cofa to zmiany wprowadzone w tej sesji, ale zostaje język. Czasem usuwa wszystkie otwarte przeze mnie pola „język”, a czasem żadnego. Nie wiem, to działa jakoś nieprzewidywalnie. Potem w edycji meczu też niektóre rzeczy usuwa, niektóre nie, niektóre potem wracają
 * jak usunę dane z profilu gracza, zapiszę z sukcesem, a potem cofnę się do listy i kliknę tego gracza jeszcze raz, to usunięte przeze mnie dane wracają na miejsce i wcale się nie usunęły. Podobnie nieprzewidywalnie to działa z edycją meczy
 * da się dodawać minusowe wartości wagi i wzrostu (i innych rzeczy – obczaj, jakich)
@@ -73,5 +72,9 @@ Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje 
 * listy meczy i raportów nie dostosowują się w żaden sposób w wersji mobilnej – trzeba przewijać stronę horyzontalnie, co jest trochę męczące. Raporty z meczy też nie dostosowują się w żaden sposób
 * wizualizacja boiska rozciąga się w zależności od parametrów ekranu urządzenia (dotyczy to też kafelków, które pojawiają się po kliknięciu w boisko)
 * W pewnym momencie pojawiła się informacja o niezapisanym meczu na stronie głównej. Jest przycisk „wróć do raportu”, ale nic się nie dzieje, jak w niego klikamy. W devtoolsach dostajemy za to komunikat: Uncaught (in promise) Error: The provided `as` value (/pl/players/63c689b24cff3d0bdc15293e/reports/start) is incompatible with the `href` value (/players/[id]/reports/start).
+
+Mam jeszcze bardzo drobne, marginalne uwagi, które nie wiem, czy również powinny być przeze mnie jako testera zgłaszane:
+
+* Błąd językowy – powinno być „liczba” zamiast „ilość”
 
 *Aura*
