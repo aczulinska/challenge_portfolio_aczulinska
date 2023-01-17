@@ -40,7 +40,6 @@ Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 
 Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
 * Nie wiem, czy domyśliłabym się natychmiast, że jak kliknę w pasek zawodnika na liście (w dowolnym miejscu), to przejdę do edycji zawodnika. Odkryłam to przez przypadek. Na pozostałych listach (meczy i raportów) jeśli chcę edytować daną pozycję, muszę kliknąć ikonkę po prawej
-* Opcja „dodaj język” przy edycji profilu gracza jest dziwna. Jest tylko sam kafelek, a po kliknięciu w niego pojawia się pasek. Z każdym kliknięciem pojawia się nowy pasek. Chyba byłoby lepiej, gdyby pusty pasek był widoczny od początku
 * Jak kliknę enter albo submit przy edycji profilu gracza, pojawia mi się popup w prawym górnym rogu, że zapisane, ale zostaję na tej samej stronie, a chyba byłoby bardziej intuicyjnie, gdyby przenosiło mnie z powrotem na listę graczy
 * W pewnym momencie przy próbie zapisania zmian w profilu gracza dostałam komunikat „Nie udało się zaktualizować gracza”, ale bez żadnych szczegółów. Powinno się coś podświetlić na czerwono, żebym wiedziała, gdzie jest błąd w formularzu
 * Nie wiem, czy to się liczy do oceny intuicyjności, ale nie mam pojęcia, co powinno być wpisane w pola "General" i "Web match" w formularzu dodawania meczy
