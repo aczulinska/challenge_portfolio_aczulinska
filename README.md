@@ -11,43 +11,43 @@ Hej, jestem Aurelia :). Zdecydowałam się wziąć udział w challenge'u, poniew
 ### Subtask 4
 
 Na czym polega ta aplikacja? Do czego służy?
-* Jest to baza graczy piłki nożnej. Służy do katalogowania danych graczy i raportów z ich meczy
+* Jest to baza graczy piłki nożnej. Służy do katalogowania graczy, ich danych i raportów z ich meczy
 
 Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
 * logowanie
 * wylogowanie
 * przypomnienie hasła
 * licznik graczy, meczy, raportów i akcji na stronie głównej
-* dodawanie graczy
+* dodawanie graczy (wprowadzanie danych gracza)
 * link do kontaktu z dev teamem (przekierowuje na Slacka)
 * lista ostatnich aktywności na stronie (dodani gracze itp.)
 * lista graczy z ich danymi
 * opcja drukowania listy graczy
 * opcja pobierania listy graczy jako csv
-* wybór kolumn listy
+* wybór kolumn, z których składać się ma lista graczy
 * zawężanie pozycji na liście graczy poprzez filtry
-* zmiana strony z pozycjami na liście
-* dodawanie meczy dla poszczególnych zawodników
-* edycja istniejących meczy
-* tworzenie raportów z meczy
-* edycja raportów
-* prosty edytor tekstu w edycji raportów
 * wyświetlanie i edycja profili graczy
-* opcja „rozpocznij mecz” - symulacja meczu? Nie jestem pewna, do czego to służy. Jak dla mnie nie jest to intuicyjne
-* zmiana języka strony na angielski
+* dodawanie meczy dla poszczególnych zawodników (wprowadzanie informacji na temat meczu, takich jak wynik itp.)
+* edycja istniejących meczy
+* tworzenie i edycja raportów z meczy (sprawozdanie z meczu i ocena, jak gracz w danym meczu się spisał)
+* prosty edytor tekstu w edycji raportów (rozmiar fontu, pogrubienie, kursywa itp.)
+* opcja „rozpocznij mecz” - symulacja meczu? Nie jestem pewna, do czego to służy i jak prawidłowo używać tej funkcjonalności. Jak dla mnie nie jest to intuicyjne
+* zmiana języka strony na angielski (lub z powrotem na polski)
 
 Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
-* Byłoby fajnie, jakby przy przełączaniu między stronami listy była opcja przejścia do początku albo na koniec
+* Wygląd jak wygląd, jest dosyć prosty. Nie wygląda zbyt profesjonalnie, ale nie jest też tragiczny
+* Malutka i dosyć losowa uwaga, która mi przyszła do głowy (ale to chyba nie jest bug, tylko kwestia designu, więc piszę to pod tym pytaniem), to że byłoby fajnie, jakby przy przełączaniu między stronami listy była opcja przejścia do jej początku albo na koniec. Bo przy ponad tysiącu pozycji na liście przechodzenie na jej koniec oznacza dużo klikania :O
 
 Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
 * Nie wiem, czy domyśliłabym się natychmiast, że jak kliknę w pasek zawodnika na liście (w dowolnym miejscu), to przejdę do edycji zawodnika. Odkryłam to przez przypadek
-* opcja „dodaj język” przy edycji profilu gracza jest dziwna. Jest tylko sam kafelek, a po kliknięciu w niego pojawia się pasek. Z każdym kliknięciem pojawia się nowy pasek. Chyba byłoby lepiej, gdyby pusty pasek był widoczny od początku
-* jak kliknę enter albo submit przy edycji profilu gracza, pojawia mi się popup w prawym górnym rogu, że zapisane, ale zostaję na tej samej stronie, a chyba byłoby bardziej intuicyjnie, gdyby przenosiło mnie z powrotem na listę graczy
-* „nie udało się zaktualizować gracza”, ale nie wiadomo czemu. Powinno się coś podświetlić na czerwono, żebym wiedziała, gdzie jest błąd
-* co to są „recenzja” (liczbowa), general i web match w oknie dodawania meczy?
-* Nie mam pojęcia, o co chodzi z ekranem „Tworzenie raportu XYZ dla meczu”, tam, gdzie pojawia się ID gracza i ID meczu. Nic nie można edytować, przycisk „clear” nic nie robi
-* nie wiem, co to jest „rozpocznij mecz” i na czym to polega :O
-* dostęp do meczy i raportów jest trochę dziwny. Nie podoba mi się, że lista po lewej nagle się zmienia
+* Opcja „dodaj język” przy edycji profilu gracza jest dziwna. Jest tylko sam kafelek, a po kliknięciu w niego pojawia się pasek. Z każdym kliknięciem pojawia się nowy pasek. Chyba byłoby lepiej, gdyby pusty pasek był widoczny od początku
+* Jak kliknę enter albo submit przy edycji profilu gracza, pojawia mi się popup w prawym górnym rogu, że zapisane, ale zostaję na tej samej stronie, a chyba byłoby bardziej intuicyjnie, gdyby przenosiło mnie z powrotem na listę graczy
+* W pewnym momencie przy próbie zapisania zmian w profilu gracza dostałam komunikat „Nie udało się zaktualizować gracza”, ale bez żadnych szczegółów. Powinno się coś podświetlić na czerwono, żebym wiedziała, gdzie jest błąd w formularzu
+* Nie wiem, czy to się liczy do oceny intuicyjności, ale nie mam pojęcia, co powinno być wpisane w pola "General" i "Web match" w formularzu dodawania meczy
+* Kiedy kliknę "Dodaj raport" na stronie z listą raportów, zostaję przeniesiona do listy meczy, co jest zupełnie nieintuicyjne. Domyślam się, że chodzi o to, że raport powinien być dodany do konkretnego meczu, ale w takim razie przycisk "Dodaj raport" nad listą raportów jest zbędny, bo i tak muszę potem kliknąć "Dodaj raport" przy konkretnym meczu
+* Nie mam pojęcia, o co chodzi z ekranem „Tworzenie raportu XYZ dla meczu”, który pojawia się po kliknięciu "Dodaj raport" przy meczu - tym, w którym pojawia się ID gracza i ID meczu. Nic nie można edytować, przycisk „Clear” nic nie robi
+* Tak jak już wcześniej wspomniałam, funkcjonalność "Rozpocznij mecz" jest dla mnie kompletnie nieintuicyjna i nie połapałam się do końca, o co w niej chodzi :O
+* Dostęp do meczy i raportów jest dla mnie trochę dziwny. Nie podoba mi się, że na stronie głównej widoczna jest tylko zakładka z graczami, a po kliknięciu w konkretnego gracza zakładki z meczami i raportami pojawiają się w tym samym miejscu i w takim samym stylu - czuję, że powinno być jakoś zasygnalizowane, że są to jakby podzakładki, przypisane do strony konkretnego gracza
 
 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)
 * wybór kolumn listy, filtry i przyciski „submit” i „clear” są po angielsku, a reszta strony po polsku
