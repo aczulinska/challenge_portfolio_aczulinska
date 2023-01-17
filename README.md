@@ -11,7 +11,7 @@ Hej, jestem Aurelia :). Zdecydowałam się wziąć udział w challenge'u, poniew
 ### Subtask 4
 
 Na czym polega ta aplikacja? Do czego służy?
-* Jest to baza graczy piłki nożnej. Służy do katalogowania graczy, ich danych i raportów z ich meczy
+* Jest to baza graczy piłki nożnej. Służy do katalogowania zawodników, ich danych i raportów z ich meczy
 
 Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
 * logowanie
