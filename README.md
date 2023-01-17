@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/122446669/212934537-b3030c34-a39a-4a8c
 
 * Po kliknięciu w pole „Waga” w ekranie tworzenia/edycji profilu zawodnika rozwija nam się lista jakichś bezsensownych liczb
 
-[bug_waga](https://user-images.githubusercontent.com/122446669/212961149-3e7971bc-461e-4137-9cc0-b7c8b7caaf69.png)
+![bug_waga](https://user-images.githubusercontent.com/122446669/212961149-3e7971bc-461e-4137-9cc0-b7c8b7caaf69.png)
 
 * Jeśli wpiszę nieprawidłowy adres email w polu tworzenia/edycji zawodnika, nie mogę zapisać zmian, ale nie dostaję żadnej informacji, dlaczego. Powinien wyświetlać się jakiś komunikat typu „nieprawidłowy adres email” i pole powinno się podświetlić na czerwono
 
@@ -67,11 +67,11 @@ https://user-images.githubusercontent.com/122446669/212935302-a2e17352-81fd-42f6
 * W polu telefon mogę wpisywać litery i jakiekolwiek inne znaki - wszystko się zapisuje bez problemu 
 * Przycisk "Clear" przy edycji profilu gracza wydaje się bardzo popsuty i działa nieprzewidywalnie - na ogół cofa zmiany wprowadzone w danej sesji, ale nie radzi sobie z wprowadzonymi językami. Czasem usuwa wszystkie otwarte przeze mnie pola „język”, a czasem żadnego. W edycji meczu też niektóre rzeczy usuwa, niektóre nie, niektóre potem wracają
 * Jak usunę dane z profilu gracza, zapiszę z sukcesem, a potem cofnę się do listy i kliknę tego gracza jeszcze raz, to usunięte przeze mnie dane wracają na miejsce i wcale się nie usunęły. Podobnie nieprzewidywalnie to działa z edycją meczy
+
+https://user-images.githubusercontent.com/122446669/212961789-d6867a2c-2a6c-4221-80d4-1a4663767ff1.mp4
+
 * Da się dodawać ujemne wartości wagi i wzrostu
 * Da się dodawać daty meczy z przyszłości
-
-https://user-images.githubusercontent.com/122446669/212935875-c7d54258-4835-4bc9-8e0b-5a3f9cde7899.mp4
-
 * W symulacji meczu da się dodawać nieskończoną liczbę połów
 * Przy przypomnieniu hasła w polu email można wpisać cokolwiek albo nawet nic, a po kliknięciu „wyślij” i tak dostajemy komunikat, że wiadomość została wysłana na podany adres email. W backlogu pojawia się za to komunikat o błędzie 400
 
@@ -100,7 +100,7 @@ Mam jeszcze bardzo drobne, marginalne uwagi, co do których mam wątpliwości, c
 * Błąd językowy – powinno być „liczba” zamiast „ilość” w licznikach na stronie głównej
 * Literówka - "pozycja alternatywa" zamiast "alternatywna" w edycji profilu gracza
 
-[bug_pozycja alternatywa](https://user-images.githubusercontent.com/122446669/212936022-6d3905ee-b60d-49a0-94e8-200bf2993d7f.png)
+![bug_pozycja alternatywa](https://user-images.githubusercontent.com/122446669/212936022-6d3905ee-b60d-49a0-94e8-200bf2993d7f.png)
 
 * Niektóre teksty na stronie są po angielsku, nawet jeśli wybrany język to polski: komunikaty o błędach na stronie logowania, przyciski, nagłówki w raporcie, "Dev team contact" na stronie głównej, podpisy do niektórych ikonek ("View Columns" i "Filter Table")
 * W polach "Wiek" w filtrach można wpisywać litery
