@@ -111,4 +111,16 @@ Mam jeszcze bardzo drobne, marginalne uwagi, co do których mam wątpliwości, c
 * Na wersji mobilnej strony, kiedy przechodzimy na następną stronę w liście graczy, nie zostajemy automatycznie przeniesieni na górę strony – musimy sami przescrollować, co jest nieco uciążliwe, bo lista robi się bardzo długa
 * Listy meczy i raportów nie dostosowują się w żaden sposób w wersji mobilnej – trzeba przewijać stronę horyzontalnie, co jest trochę męczące. Raporty z meczy też nie dostosowują się w żaden sposób
 
+# Task 3
+
+### Subtask 2
+
+Podaję link do raportów z błędów: https://docs.google.com/spreadsheets/d/1SQ8akczTEGS-SMHvnShxcIH8RKwqRIZgGhY9cVQaJVg/edit?usp=share_link
+
+Jako że w poprzednim tygodniu nie oddałam na czas zadania, dołączam jeszcze listę test casów - skończyłam ją po terminie: https://docs.google.com/spreadsheets/d/1HkJUW9s46fnfhBQDLqEdgb2HcbqpSUmJ7htnBapBnuA/edit?usp=share_link
+
+### Subtask 3
+
+Link do raportu z testów: https://docs.google.com/document/d/1pCv0uTS3OnQHTQ313bNToohSMSf6bqduno3BN3T-22c/edit?usp=share_link
+
 *Aura*
