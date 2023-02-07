@@ -123,4 +123,35 @@ Jako że w poprzednim tygodniu nie oddałam na czas zadania, dołączam jeszcze 
 
 Link do raportu z testów: https://docs.google.com/document/d/1pCv0uTS3OnQHTQ313bNToohSMSf6bqduno3BN3T-22c/edit?usp=share_link
 
+# Task 4
+
+### Subtask 2
+
+Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUfpGKla9xj5DWMIIp1GNEDuQhpBZNPPR-81eI/edit?usp=sharing
+
+### Subtask 3
+
+**Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
+
+* Aplikacja ta służy do zamieszczania i wyszukiwania lokalnych ogłoszeń. Można za jej pośrednictwem sprzedawać i kupować przedmioty, zamieszczać i odpowiadać na oferty pracy, oferować i znajdować usługi itp.
+
+**Kto ma być użytkownikiem końcowym aplikacji?**
+
+* Użytkownikiem końcowym aplikacji mają być głównie osoby prywatne chcące coś sprzedać, kupić, znaleźć lokalne ogłoszenia, wymienić się usługami itp. Firmy również mogą zamieszczać i odpowiadać na ogłoszenia.
+
+**Czy według Ciebie aplikacja jest user friendly?**
+
+* Generalnie tak, chociaż niektóre kategorie i zakładki wydają mi się mało intuicyjne, np. oczekujące ogłoszenia
+
+**Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**
+
+* Uprościłabym nieco formularz tworzenia ogłoszenia, ponieważ jak na razie jest nieco chaotyczny i łatwo pominąć jakiś podpunkt. Jest też w nim sporo błędów, które czynią cały proces nieco topornym. Dopracowałabym też sposób wyświetlania ogłoszeń w wyszukiwarce, aby layout był bardziej przejrzysty - przez różnice w rozmiarach kafelków i mieszanie zwykłych ogłoszeń z tymi wyróżnionymi (które nie reagują na szczegółowe filtry) można pogubić się w tym, które ogłoszenia już się oglądało.
+
+**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+
+* W przypadku aplikacji natywnych więcej zależy od urządzenia, na którym testujemy - wydaje się, że model urządzenia i system operacyjny odgrywają tu większą rolę niż w przypadku aplikacji internetowych, więc testowanie na wielu różnych urządzeniach staje się bardzo ważne
+* Aplikacje natywne stwarzają więcej okazji do testowania, jak dana apka współpracuje z hardware'em urządzenia, np. korzystając z kamery
+* Aplikacje natywne wydają się mniej stabilne
+
+
 *Aura*
