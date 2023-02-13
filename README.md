@@ -162,7 +162,8 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * ORDER BY X - sortuje wyniki wg wybranej kolumny
 * GROUP BY X - grupuje wyniki wg wskazanej kategorii
 * WHERE X - filtruje wg wskazanej wartości
-* X AS Y - nadaje alias wybranej kolumnie
+* X AS Y - nadaje alias wybranej nazwie
+* GO - oddziela od siebie wsady
 
 #### Funkcje:
 * GETDATE () - zwraca bierzącą datę
@@ -172,8 +173,8 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * MIN(X) - zwraca minimalną wartość ze wskazanej kolumny
 * SUM(X) - sumuje wartości ze wskazanej kolumny
 
-#### szare
-* JOIN X
+#### Operatory:
+* JOIN - łączenie tabel
 * IN
 * OR
 * AND
