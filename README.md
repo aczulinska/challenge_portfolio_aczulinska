@@ -147,11 +147,39 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 
 * Uprościłabym nieco formularz tworzenia ogłoszenia, ponieważ jak na razie jest nieco chaotyczny i łatwo pominąć jakiś podpunkt. Jest też w nim sporo błędów, które czynią cały proces nieco topornym. Dopracowałabym też sposób wyświetlania ogłoszeń w wyszukiwarce, aby layout był bardziej przejrzysty - przez różnice w rozmiarach kafelków i mieszanie zwykłych ogłoszeń z tymi wyróżnionymi (które nie reagują na szczegółowe filtry) można pogubić się w tym, które ogłoszenia już się oglądało.
 
-**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+**Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej a natywnej?**
 
 * W przypadku aplikacji natywnych więcej zależy od urządzenia, na którym testujemy - wydaje się, że model urządzenia i system operacyjny odgrywają tu większą rolę niż w przypadku aplikacji internetowych, więc testowanie na wielu różnych urządzeniach staje się bardzo ważne
 * Aplikacje natywne stwarzają więcej okazji do testowania, jak dana apka współpracuje z hardware'em urządzenia, np. korzystając z kamery
 * Aplikacje natywne wydają się mniej stabilne
 
+# Task 5
+
+### Subtask 1
+
+#### Zapytania:
+* SELECT X FROM Y - wyświetla kolumny ze wskazanej tabeli
+* ORDER BY X - sortuje wyniki wg wybranej kolumny
+* GROUP BY X - grupuje wyniki wg wskazanej kategorii
+* WHERE X - filtruje wg wskazanej wartości
+* X AS Y - nadaje alias wybranej kolumnie
+
+#### Funkcje:
+* GETDATE () - zwraca bierzącą datę
+* DATEDIFF (HOUR/MONTH/DAY/YEAR, X, Y) - zwraca różnicę między datą X a datą Y
+* UPPER(X) - wyświetla X wielkimi literami
+* COUNT(X) - zlicza liczbę wierszy
+* MIN(X) - zwraca minimalną wartość ze wskazanej kolumny
+* SUM(X) - sumuje wartości ze wskazanej kolumny
+
+#### szare
+* JOIN X
+* IN
+* OR
+* AND
+* LIKE
+* IS (NOT) NULL
+* BETWEEN X AND Y
+* <,>,=,<>
 
 *Aura*
