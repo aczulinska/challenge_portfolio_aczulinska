@@ -159,6 +159,7 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 
 #### Zapytania:
 * SELECT X FROM Y - wyświetla kolumny ze wskazanej tabeli
+* SELECT TOP - wyświetla 10 pierwszych wyników zgodnie z wybranym kluczem sortowania
 * ORDER BY X - sortuje wyniki wg wybranej kolumny
 * GROUP BY X - grupuje wyniki wg wskazanej kategorii
 * WHERE X - filtruje wg wskazanej wartości
@@ -182,5 +183,59 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * IS (NOT) NULL
 * BETWEEN X AND Y
 * <,>,=,<>
+
+
+### Subtask 3
+
+**Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
+* SELECT * FROM actors ORDER BY surname
+
+![T5S3_1](https://user-images.githubusercontent.com/122446669/218714536-b6623c87-6c36-457f-80a8-795972df28ef.png)
+
+**Wyświetl film, który powstał w 2019 roku.**
+* SELECT * FROM movies WHERE year_of_production = 2019
+
+![T5S3_2](https://user-images.githubusercontent.com/122446669/218715286-9f79cdd2-e573-409c-8c63-185fea770fce.png)
+
+**Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
+* SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999
+
+![T5S3_3](https://user-images.githubusercontent.com/122446669/218715719-036f95c3-e83e-47a8-9244-b3de3d5c760a.png)
+
+**Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
+* SELECT title, price FROM movies WHERE price < 7
+
+![T5S3_4](https://user-images.githubusercontent.com/122446669/218716309-afc46af5-c114-495c-a796-82d44ddeaf2a.png)
+
+**Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
+* SELECT * FROM actors WHERE actor_id < 8 AND actor_id > 3
+
+![image](https://user-images.githubusercontent.com/122446669/218717452-6d1b4970-cf7e-4a5c-ba48-039692fbdab0.png)
+
+**Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
+* SELECT * FROM customers WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
+
+![T5S3_6](https://user-images.githubusercontent.com/122446669/218720748-d266b816-af31-4298-9964-0394e5878587.png)
+
+**Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+* SELECT * FROM customers WHERE customer_id IN (1,3,5)
+
+![T5S3_7](https://user-images.githubusercontent.com/122446669/218718895-f875daf5-ea3d-4703-8adf-29fa3f59ccae.png)
+
+**Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
+* SELECT * FROM actors WHERE name LIKE 'An%'
+
+![T5S3_8](https://user-images.githubusercontent.com/122446669/218719164-318ca18c-61a8-482b-8e22-aacc47fbeaee.png)
+
+**Wyświetl dane klienta, który nie ma podanego adresu email.**
+* SELECT * FROM customers WHERE email IS NULL
+
+![image](https://user-images.githubusercontent.com/122446669/218719577-ce3754bd-1132-486e-ba3c-350ff9bb3e37.png)
+
+**Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+* SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
+
+![T5S3_10](https://user-images.githubusercontent.com/122446669/218720071-f7183fe1-04cd-42c0-94c5-8b1c330cec71.png)
+
 
 *Aura*
