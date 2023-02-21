@@ -1,14 +1,14 @@
 # Task 1
 
-### Subtask 1
+## Subtask 1
 
 7/10
 
-### Subtask 3
+## Subtask 3
 
 Hej, jestem Aurelia :). Zdecydowałam się wziąć udział w challenge'u, ponieważ chcę zdobyć nowe umiejętności i eksplorować zawodowo nowe terytoria. Zdarzyło mi się pracować krótko jako testerka gier i dobrze się w tym odnajdowałam, więc liczę na to, że udział w projekcie pomoże mi rozwinąć się w tej dziedzinie i znależć pracę w branży testerskiej.
 
-### Subtask 4
+## Subtask 4
 
 **Na czym polega ta aplikacja? Do czego służy?**
 * Jest to baza graczy piłki nożnej. Służy do katalogowania zawodników, ich danych i raportów z ich meczy
@@ -113,23 +113,23 @@ Mam jeszcze bardzo drobne, marginalne uwagi, co do których mam wątpliwości, c
 
 # Task 3
 
-### Subtask 2
+## Subtask 2
 
 Podaję link do raportów z błędów: https://docs.google.com/spreadsheets/d/1SQ8akczTEGS-SMHvnShxcIH8RKwqRIZgGhY9cVQaJVg/edit?usp=share_link
 
 Jako że w poprzednim tygodniu nie oddałam na czas zadania, dołączam jeszcze listę test casów - skończyłam ją po terminie: https://docs.google.com/spreadsheets/d/1HkJUW9s46fnfhBQDLqEdgb2HcbqpSUmJ7htnBapBnuA/edit?usp=share_link
 
-### Subtask 3
+## Subtask 3
 
 Link do raportu z testów: https://docs.google.com/document/d/1pCv0uTS3OnQHTQ313bNToohSMSf6bqduno3BN3T-22c/edit?usp=share_link
 
 # Task 4
 
-### Subtask 2
+## Subtask 2
 
 Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUfpGKla9xj5DWMIIp1GNEDuQhpBZNPPR-81eI/edit?usp=sharing
 
-### Subtask 3
+## Subtask 3
 
 **Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
 
@@ -155,9 +155,9 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 
 # Task 5
 
-### Subtask 1
+## Subtask 1
 
-#### Zapytania:
+### Zapytania:
 * SELECT X FROM Y - wyświetla kolumny ze wskazanej tabeli
 * SELECT TOP - wyświetla 10 pierwszych wyników zgodnie z wybranym kluczem sortowania
 * ORDER BY X - sortuje wyniki wg wybranej kolumny
@@ -166,7 +166,7 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * X AS Y - nadaje alias wybranej nazwie
 * GO - oddziela od siebie wsady
 
-#### Funkcje:
+### Funkcje:
 * GETDATE () - zwraca bierzącą datę
 * DATEDIFF (HOUR/MONTH/DAY/YEAR, X, Y) - zwraca różnicę między datą X a datą Y
 * UPPER(X) - wyświetla X wielkimi literami
@@ -174,7 +174,7 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * MIN(X) - zwraca minimalną wartość ze wskazanej kolumny
 * SUM(X) - sumuje wartości ze wskazanej kolumny
 
-#### Operatory:
+### Operatory:
 * JOIN - łączenie tabel
 * IN
 * OR
@@ -185,7 +185,7 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 * <,>,=,<>
 
 
-### Subtask 3
+## Subtask 3
 
 **Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 * SELECT * FROM actors ORDER BY surname
@@ -240,7 +240,7 @@ Link do zgłoszonych błędów: https://docs.google.com/spreadsheets/d/1Vx_boYUf
 
 # Task 6
 
-### Subtask 1
+## Subtask 1
 
 **Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**
 * UPDATE customers
@@ -346,10 +346,12 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ![T6S1_20](https://user-images.githubusercontent.com/122446669/220315857-4d63290b-fa32-4363-9ede-e2aa330f1c44.png)
 
 
-### Subtask 2
+## Subtask 2
 
 ![T6S2](https://user-images.githubusercontent.com/122446669/220338729-a0933131-d258-493d-9019-4670548ff65a.png)
 
+## Subtask 3
 
+[Link do nowego repozytorium z porftolio](https://github.com/aczulinska/Portfolio/blob/a6b570592efba22922456ccf5e71fdfa5c36575b/README.md)
 
 *Aura*
