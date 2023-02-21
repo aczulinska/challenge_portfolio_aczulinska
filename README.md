@@ -346,5 +346,10 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ![T6S1_20](https://user-images.githubusercontent.com/122446669/220315857-4d63290b-fa32-4363-9ede-e2aa330f1c44.png)
 
 
+### Subtask 2
+
+![T6S2](https://user-images.githubusercontent.com/122446669/220338729-a0933131-d258-493d-9019-4670548ff65a.png)
+
+
 
 *Aura*
